@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('./resources/FredokaOne-Regular.ttf') format('woff2');
+    /* Agrega otros formatos de fuente según sea necesario (woff, ttf, etc.) */
+}
+
+
+body {
+    font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+h2 {
+    @apply text-sky-950 font-bold text-4xl mb-3 text-center ;
+}
+
+h3 {
+    @apply font-bold text-2xl underline;
+}
+
+aside p {
+    @apply font-bold flex items-center space-x-4 text-2xl
+}
+
+p img {
+    @apply mx-2
+}
+
+p {
+    @apply mb-2 text-2xl
+}
+
+.serv ul{
+    @apply list-disc text-justify 
+}
+
+
+@layer components {
+    .buttonNav {
+        @apply text-blue-300 font-bold relative cursor-pointer text-2xl;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: #60a5fa;
+            transition: width 0.3s ease;
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
+    }
+}
