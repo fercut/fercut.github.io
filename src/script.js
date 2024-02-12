@@ -20,8 +20,13 @@ const proyectos = document.getElementById('proyectos');
 const cont = document.getElementById('cont');
 const contacto = document.getElementById('contacto');
 
-const hamb = document.getElementById('hamb');
-const menu = document.getElementById('menu');
+const menuBtn = document.getElementById('menuBtn');
+const navv = document.getElementById('navv');
+
+
+menuBtn.addEventListener('click', () => {
+    navv.classList.toggle('hidden');
+});
 
 inicio.addEventListener('click', () => {
     home.classList.remove('hidden');
@@ -31,7 +36,7 @@ inicio.addEventListener('click', () => {
     servicios.classList.add('hidden');
     proyectos.classList.add('hidden');
     contacto.classList.add('hidden');
-    menu.classList.add('hidden');
+    navv.classList.add('hidden');
 });
 
 form.addEventListener('click', () => {
@@ -42,6 +47,7 @@ form.addEventListener('click', () => {
     servicios.classList.add('hidden');
     proyectos.classList.add('hidden');
     contacto.classList.add('hidden');
+    navv.classList.add('hidden');
 });
 
 expe.addEventListener('click', () => {
@@ -52,6 +58,7 @@ expe.addEventListener('click', () => {
     servicios.classList.add('hidden');
     proyectos.classList.add('hidden');
     contacto.classList.add('hidden');
+    navv.classList.add('hidden');
 });
 
 hab.addEventListener('click', () => {
@@ -62,6 +69,7 @@ hab.addEventListener('click', () => {
     servicios.classList.add('hidden');
     proyectos.classList.add('hidden');
     contacto.classList.add('hidden');
+    navv.classList.add('hidden');
 });
 
 
@@ -73,6 +81,7 @@ serv.addEventListener('click', () => {
     experiencia.classList.add('hidden');
     proyectos.classList.add('hidden');
     contacto.classList.add('hidden');
+    navv.classList.add('hidden');
 });
 
 proy.addEventListener('click', () => {
@@ -83,6 +92,7 @@ proy.addEventListener('click', () => {
     formacion.classList.add('hidden');
     experiencia.classList.add('hidden');
     contacto.classList.add('hidden');
+    navv.classList.add('hidden');
 });
 
 cont.addEventListener('click', () => {
@@ -93,16 +103,7 @@ cont.addEventListener('click', () => {
     home.classList.add('hidden');
     formacion.classList.add('hidden');
     experiencia.classList.add('hidden');
-    
+    navv.classList.add('hidden');
 });
 
-hamb.addEventListener('click', () => {
-    menu.classList.remove('hidden');
-    proyectos.classList.add('hidden');
-    servicios.classList.add('hidden');
-    habilidades.classList.add('hidden');
-    home.classList.add('hidden');
-    formacion.classList.add('hidden');
-    experiencia.classList.add('hidden');
-    contacto.classList.add('hidden');
-});
+

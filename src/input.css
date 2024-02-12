@@ -14,7 +14,7 @@ body {
 }
 
 h2 {
-    @apply text-sky-950 font-bold text-4xl mb-3 text-center ;
+    @apply text-sky-950 font-bold text-4xl mb-3 text-center;
 }
 
 h3 {
@@ -22,19 +22,19 @@ h3 {
 }
 
 aside p {
-    @apply font-bold flex items-center space-x-4 text-2xl
+    @apply font-bold flex items-center space-x-4 text-2xl;
 }
 
 p img {
-    @apply mx-2
+    @apply mx-2;
 }
 
 p {
-    @apply mb-2 text-2xl
+    @apply mb-2 text-sm lg:text-2xl;
 }
 
 .serv ul{
-    @apply list-disc text-justify 
+    @apply list-disc text-justify hidden md:block ;
 }
 
 
