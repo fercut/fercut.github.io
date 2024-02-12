@@ -630,6 +630,10 @@ video {
   margin-right: 1rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -644,10 +648,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .block {
@@ -676,6 +676,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .cursor-pointer {
@@ -908,10 +912,6 @@ p {
   .serv ul {
     display: block;
   }
-}
-
-.hover\:w-\[70px\]:hover {
-  width: 70px;
 }
 
 .hover\:w-\[80px\]:hover {

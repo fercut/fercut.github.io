@@ -58,12 +58,12 @@
         <p><img src="./src/resources/ang.png" alt="Angular" width="25px">Angular</p>
         <p><img src="./src/resources/mon.png" alt="mongo" width="25px">MongoDB</p>
     </aside>
-    <section class="flex items-center justify-center">
+    <section class="flex flex-grow items-center justify-center mb-20">
         <article id="home" class="hidden flex flex-col lg:flex-row  items-center">
             <figure class="p-4 mx-2 hidden md:mt-48 md:block">
                 <img id="avatar" src="./src/resources/avatar.png" alt="fotoMia" class="w-[200px] lg:w-[400px]" >
             </figure>
-            <div class="p-4 mx-2 mt-5 md:mt-20">
+            <div class="p-4 mx-2 mt-0 md:mt-20">
                 <h2 class="text-relieve">BIENVENIDOS</h2>
                 <p>Soy Fermín Fernández Cutilla, y me especializo en el desarrollo web FullStack.</p>
                 <p>Responsable, metódico, y organizado en cada proyecto o tarea que abordo.</p>
@@ -305,7 +305,7 @@
 
         </article>
     </section>
-    <footer class="absolute bottom-0 text-center">
+    <footer class="absolute bottom-0 text-center w-full p-4">
         <p class="text-sm"><span id="fechaActual"></span> Fermin Fernandez Cutilla. Todos los derechos reservados.
             <a href="./src/resources/CV Fermin.pdf" target="_blank"
                 class="text-sky-950 hover:underline block mt-2 hover:text-sky-50">Descargue aquí mi currículum</a>
@@ -317,5 +317,4 @@
         fechaActualElement.textContent = fechaActual;
     </script>
 </body>
-
 </html>

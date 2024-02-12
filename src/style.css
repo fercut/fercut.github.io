@@ -3,11 +3,11 @@ section {
 }
 
 .hab1 {
-    padding: 1em;
+    margin: 20px;
 }
 
 .hab2 {
-    padding: 1em;
+    margin: 20px;
 }
 
 .habl {
@@ -103,11 +103,11 @@ section {
     }
 
     .hab1 {
-        padding: 0em;
+        margin: 0;
     }
 
     .hab2 {
-        padding: 0em;
+        margin: 0;
     }
 
     .elementos {
@@ -127,22 +127,22 @@ section {
         background: linear-gradient(to bottom, #0f172a, #0c4a6e, #60a5fa)
     }
 
-    ;
+    .buttonNav {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .hab1 {
+        margin: 5px;
+    }
+    
+    .hab2 {
+        margin: 5px;
+    }
+    
+    .elementos {
+        padding-bottom: 5px;
+    }
+    
 }
 
-.buttonNav {
-    margin-right: 0;
-    margin-bottom: 10px;
-}
-
-.hab1 {
-    padding: 0em;
-}
-
-.hab2 {
-    padding: 0em;
-}
-
-.elementos {
-    padding-bottom: 5px;
-}
